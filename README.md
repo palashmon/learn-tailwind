@@ -19,5 +19,6 @@ If you're looking for a framework that comes with a menu of predesigned widgets 
 But if you want a huge head start implementing a custom design with its own identity, Tailwind might be just what you're looking for.
 </p>
 <br/>
-**Inspired by DesignCourse Tutorial:** [TailwindCSS Crash Course](https://www.youtube.com/watch?v=8k165Y0qBN0)
+
+**Inspired by DesignCourse Tutorial:** [TailwindCSS Crash Course](https://www.youtube.com/watch?v=8k165Y0qBN0)  
 **Official Documentation:** [Tailwind CSS Docs](https://tailwindcss.com/)
