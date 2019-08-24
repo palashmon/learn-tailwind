@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tailwind CSS</title>
+    <link href="https://unpkg.com/tailwindcss@^0.7.4/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-grey-lighter">
+    <div class="block md:flex align-stretch">
+      <div
+        class="bg-blue-darker py-24 px-8 md:flex-1 md:h-screen md:p-12 md:justify-center lg:p-16 xl:p-24 flex flex-col"
+      >
+        <h1 class="text-blue text-center md:text-left xl:text-5xl">
+          TailWind CSS Example
+        </h1>
+        <p class="text-white mt-3 sm:text-lg md:text-left md:text-xl xl:text-3xl">
+          Inspired by DesignCourse Tutorial:
+          <a
+            class="text-indigo-lighter no-underline"
+            href="https://www.youtube.com/watch?v=8k165Y0qBN0"
+            >TailwindCSS Crash Course</a
+          >
+        </p>
+        <p class="text-white mt-3 sm:text-lg md:text-left md:text-xl xl:text-3xl">
+          Official Documentation:
+          <a class="text-indigo-lighter no-underline" href="https://tailwindcss.com/"
+            >Tailwind CSS Docs</a
+          >
+        </p>
+      </div>
+      <div class="py-12 px-8 flex-1 flex-col flex justify-center md:h-screen rightcol">
+        <div class="bg-white inline-flex p-6 rounded-full shadow-md md:-ml-12">
+          <div class="bg-blue rounded-full w-12 h-12"></div>
+          <p class="mt-4 ml-4 lg:text-2xl">
+            It is awesome!
+          </p>
+        </div>
+        <div class="bg-white inline-flex p-4 rounded-full mt-8 shadow-md md:ml-8">
+          <div class="bg-blue rounded-full w-12 h-12"></div>
+          <p class="mt-4 ml-4 lg:text-2xl">
+            It is awesome!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
